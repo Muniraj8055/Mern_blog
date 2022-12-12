@@ -1,0 +1,132 @@
+.profile {
+    display: flex;
+   
+  }
+  
+  .profileWrapper {
+    flex: 9;
+    padding: 20px;
+    margin-left: 0 ;
+    margin-top: 10px;
+  }
+  
+  .profileTitle {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    
+  }
+  
+  .profileTitleUpdate {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(10, 114, 34);
+    margin-left: 0%;
+  }
+  
+  .profileTitleDelete {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    align-self: center;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(236, 121, 121);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 15px;
+  }
+
+.profileTitleDelete:hover {
+    background-color:rgb(197, 71, 71);
+  }
+  
+  .profileForm {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+  
+  }
+  
+  .profilePP {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+  }
+  
+  .profilePP > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+   
+  }
+  
+  .profilePPIcon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    background-color: lightcoral;
+    cursor: pointer;
+    
+  }
+  
+  .profilePPButton:focus {
+    outline-style: none;
+  }
+  
+  .profileForm > label {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .profilePPInput {
+    width: 30%;
+  }
+  
+  .profileForm > input {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+  }
+
+  .profileForm > label{
+    margin-left: 0%;
+  }
+  
+  .profileSubmitButton {
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profileSubmitButton:hover {
+    background-color: rgb(1, 114, 114);
+  }
